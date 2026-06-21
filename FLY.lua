@@ -294,7 +294,7 @@ onof.MouseButton1Down:connect(function()
 
 		speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.StrafingNoPhysics,true)
 
-		speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Swimming,true)
+		speaker.Chster.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Swimming,true)
 
 		speaker.Character.Humanoid:ChangeState(Enum.HumanoidStateType.RunningNoPhysics)
 
@@ -795,4 +795,3 @@ mini2.MouseButton1Click:Connect(function()
 	closebutton.Position =  UDim2.new(0, 0, -1, 27)
 
 end)
-Update fly script
